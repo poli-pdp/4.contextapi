@@ -12,7 +12,7 @@ const Header = () => {
 	const { user, login, logout } = useContext(UserContext);
 	console.log('Header');
 	return (
-		<Box sx={{ flexGrow: 1 }}>
+		<Box sx={{ flexGrow: 1, marginBottom: 3 }}>
 			<AppBar position='static'>
 				<Toolbar>
 					<IconButton

@@ -4,6 +4,7 @@ const UserContext = createContext();
 const initialUser = {
 	id: 1,
 	name: 'Giovanny',
+	moviesFavorites: [1, 3],
 };
 const UserProvider = ({ children }) => {
 	const [user, setUser] = useState(initialUser);
